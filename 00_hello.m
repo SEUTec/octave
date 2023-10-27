@@ -8,5 +8,5 @@
 # else: octave 00_hello.m
 #
 
-
-printf ("Hello, world!\n");
+msg = "Hello, world!\n";  # ; at the end for non verbose output
+printf (msg);
