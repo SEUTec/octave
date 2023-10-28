@@ -14,9 +14,24 @@ b(2)
 # Add more data in the array
 a(6) = 6
 
-# 2D array
-xy = [11,12,13,14;
-      21,22,23,24 ];
+# Array creation
+# from 1 to 20 with steps of 1
+a1=1:20
+# from 0 to 5 with steps of 0.1
+a2=0:0.1:5
+# Array of specific number
+a5 = ones(1, 3) * 5
 
-xy(2, 3)
+# Array of zeros
+z1 = zeros(1,3)
+# Array of zeros on column
+z2 = zeros(4,1)
 
+# Array of Randoms
+r1 = rand(1,3)
+# Array of Randoms on column
+r2 = rand(3,1)
+
+# Return a matrix with normally distributed random elements having
+# zero mean and variance one.
+rn1 = randn(1,3)

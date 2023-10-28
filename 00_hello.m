@@ -3,7 +3,7 @@
 #
 # if this file is execuable, and octave is installed in the beginning path
 #
-# rutn this file with:  ./00_hello.m
+# run this file with:  ./00_hello.m
 #
 # else: octave 00_hello.m
 #
