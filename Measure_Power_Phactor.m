@@ -98,7 +98,7 @@ Vs_m = max(Vs) / sqrt(2)   # Vpeak / sqrt(2)
 Is_m = max(Is) / sqrt(2)
 Ps_m =  Vs_m * Is_m * PF
 
-printf('\nEnergy, W*s in one Period\n');
+printf('\nEnergy, Veff * Ieff * PF * T in one Period\n');
 Ps_m =  Vs_m * Is_m * PF * T  # Power * T time = W*s
 
 # Integer number of periods of signal
@@ -118,7 +118,7 @@ end
 plot(t, Ps, tp, Psp, 'r')
 grid;
 
-printf('\nEnergy by Itegration of Power in one period.\n');
+printf('\nEnergy by Itegration of V .* I in one period.\n');
 Es = trapz(tp, Psp) / Np  # Watts * s
 
 # Another way to get Power Factor, NOT WORKING YET
