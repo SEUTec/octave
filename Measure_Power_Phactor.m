@@ -20,7 +20,10 @@ Vp = sqrt(2) * Veff;  # Peak Voltage
 nT = 2;             # Number of Periods to show
 #sT = 26;            # Samples per Period
 #sT = 36;            # Samples per Period
-sT = 360;            # Samples per Period
+sT = 45;            # Samples per Period
+#sT = 90;            # Samples per Period
+#sT = 180;            # Samples per Period
+#sT = 360;            # Samples per Period
 
 
 #t = 0:T/sT:nT*T;     # Array of time
@@ -123,9 +126,10 @@ printf('\nEnergy by Itegration of V .* I in one period.\n');
 Es = trapz(tp, Psp) / Np  # Watts * s
 
 # Another way to get Power Factor, NOT WORKING YET
-#print('\nEnergy by Effectiva values.\n');
-#Veff
-#Ieff = Ip / sqrt(2)
-#Pseff = Veff * Ieff
-#PF2 =  Ps_m / Pseff
-#Eeff = Pseff * T  # Power * T time = W*s
+printf('\nEnergy by Effective values.\n');
+Veff
+Ieff = Ip / sqrt(2)
+Pseff = Veff * Ieff
+PF2 =  Ps_m / Pseff
+Eeff = Pseff * T  # Power * T time = W*s
+PF = Es / Eeff
