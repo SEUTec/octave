@@ -4,6 +4,8 @@
 # run this file with:  ./Template.m
 # or: octave --persist Template.m
 
-clear all
-close all
+clear all;
+clc;
+
+printf('Template');
 
