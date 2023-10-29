@@ -28,7 +28,13 @@ a(end) = []
 # Reversal
 a(end:-1:1)
 
+disp('Insert value before');
+pos = 3
+a = [a(1:pos-1), 333, a(pos:end)] 
 
+disp('Insert value after');
+pos = 5
+a = [a(1:pos), 555, a(pos+1:end)] 
 
 # Array creation
 # from 1 to 20 with steps of 1
