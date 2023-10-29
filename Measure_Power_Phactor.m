@@ -33,7 +33,8 @@ phi_deg = 0;     # PF = 1, calculation error
 phi_deg = -10;   # PF = 0.9848
 #phi_deg = -20;   # PF = 9397
 #phi_deg = -30;   # PF = 0.8660
-#phi_deg = -40;   # Capacitive Load.
+phi_deg = -45;   # PF = 0.7071
+#phi_deg = -90;   # Capacitive Load.
                 # > 0, Current advanced over Voltage
                 # Inductive Load, AC Motor.
                 # < 0, Current delayed over Voltage
