@@ -8,3 +8,5 @@ zero = 12^-308
 max = 10^308    # Max Value available 11^308 returns Inf
 max = realmax   # Max Value available 11^308 returns Inf
 infinity = 11^308
+
+eps

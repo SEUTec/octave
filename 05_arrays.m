@@ -14,6 +14,22 @@ b(2)
 # Add more data in the array
 a(6) = 6
 
+# Add at the end of the array
+a(end + 1) = 7
+
+# Get first data in the array
+a(1)
+# Get last data in the array
+a(end)
+# Frist half
+a(1:end/2)
+# Delete last element
+a(end) = []
+# Reversal
+a(end:-1:1)
+
+
+
 # Array creation
 # from 1 to 20 with steps of 1
 a1=1:20
